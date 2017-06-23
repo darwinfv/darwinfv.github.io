@@ -1,14 +1,12 @@
 
 #header {
-  fonts-size:20px;
+  fonts-size:22px;
   font-family:Verdana;
-  color:#14aafd;
+  color:#14aa5d;
+  text-align:center;
+  padding:5px 50px 5px 20px;
 }
 
 #header > p {
-  background:#14aafd;
-}
-
-* {
-  background:#14aafd;
+  background:#14aa5d;
 }
