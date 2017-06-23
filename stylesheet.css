@@ -1,8 +1,6 @@
 
-#green {
+body > p {
   background:#1096651;
-  display:block;
-  float:top;
 }
 
 #header {
