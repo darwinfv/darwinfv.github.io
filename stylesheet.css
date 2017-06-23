@@ -1,10 +1,12 @@
 
 #green {
   background:#1096651;
+  display:block;
+  
 }
 
 #header {
-  fonts-size:24px;
+  fonts-size:26px;
   font-family:Verdana;
   color:#14aa5d;
   text-align:center;
@@ -14,6 +16,5 @@
 }
 
 #header > p {
-  background:#14aa5d;
   font-size:12px;
 }
