@@ -2,14 +2,13 @@
 #green {
   background:#1096651;
   display:block;
-  
+  float:top;
 }
 
 #header {
-  fonts-size:26px;
+  fonts-size:28px;
   font-family:Verdana;
   color:#14aa5d;
-  text-align:center;
   padding:5px 50px 5px 20px;
   background:black;
   display:block-inline;
