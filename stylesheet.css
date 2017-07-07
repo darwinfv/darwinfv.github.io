@@ -1,9 +1,3 @@
-
-/*body {
-  background:black;
-  color:white;
-}*/
-
 body > p {
   background:#1096651;
 }
@@ -13,10 +7,9 @@ body > p {
   font-family:Verdana;
   color:#14aa5d;
   padding:5px 50px 5px 20px;
-  background:black;
-  display:block-inline;
+  display:inline;
 }
 
-#header > p {
-  font-size:12px;
+#header > span {
+  
 }
