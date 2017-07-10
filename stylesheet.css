@@ -1,24 +1,23 @@
 
 
 #header {
-  fonts-size:28px;
   font-family:Verdana;
-  /*color:#14aa5d;
-  #padding:5px 50px 5px 20px;*/
+  background:black;
+  /*padding:5px 50px 5px 20px;*/
   position:fixed;
 }
 
 #header > span {
-  
+  fonts-size:28px;
+
 }
 
 #header > ul {
   list-style-type:none;
   display:inline;
+  align:right;
 }
 
 #header > ul > li {
   display:inline;
-  border: 2px solid black;
-	background-color: #14aafd;
 }
