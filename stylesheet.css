@@ -17,9 +17,9 @@
 #header > ul {
   list-style-type:none;
   display:inline;
+  float:right;
 }
 
 #header > ul > li {
   display:inline;
-  float:right;
 }
