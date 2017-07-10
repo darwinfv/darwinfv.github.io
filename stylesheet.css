@@ -11,13 +11,11 @@
 
 #header > span {
   fonts-size:32px;
-  float:left;  
 }
 
 #header > ul {
   list-style-type:none;
   display:inline;
-  float:right;
 }
 
 #header > ul > li {
