@@ -4,21 +4,18 @@
   font-family:Verdana;
   background:black;
   color:#14aafd;
-  padding:5px 50px 5px 20px;
   position:fixed;
 }
 
 #header > span {
   fonts-size:28px;
-  align:left;
-  margin-left:-20px;
+  text-align:left;
 }
 
 #header > ul {
   list-style-type:none;
   display:inline;
-  align:right;
-  margin-right:-50px;
+  text-align:right;
 }
 
 #header > ul > li {
