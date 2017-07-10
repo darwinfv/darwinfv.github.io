@@ -1,10 +1,10 @@
 
 
 #header {
-  font-family:Verdana;
   background:black;
   color:#14aafd;
   position:fixed;
+  text-align:right;
 }
 
 #header > span {
@@ -15,7 +15,6 @@
 #header > ul {
   list-style-type:none;
   display:inline;
-  text-align:right;
 }
 
 #header > ul > li {
