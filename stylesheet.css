@@ -3,19 +3,22 @@
 #header {
   font-family:Verdana;
   background:black;
-  /*padding:5px 50px 5px 20px;*/
+  color:#14aafd;
+  padding:5px 50px 5px 20px;
   position:fixed;
 }
 
 #header > span {
   fonts-size:28px;
-
+  align:left;
+  margin-left:-20px;
 }
 
 #header > ul {
   list-style-type:none;
   display:inline;
   align:right;
+  margin-right:-50px;
 }
 
 #header > ul > li {
