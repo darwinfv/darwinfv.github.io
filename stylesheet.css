@@ -3,10 +3,9 @@
 #header {
   fonts-size:28px;
   font-family:Verdana;
-  color:#14aa5d;
-  padding:5px 50px 5px 20px;
-  display:inline;
-  positio:fixed;
+  /*color:#14aa5d;
+  #padding:5px 50px 5px 20px;*/
+  position:fixed;
 }
 
 #header > span {
@@ -16,4 +15,10 @@
 #header > ul {
   list-style-type:none;
   display:inline;
+}
+
+#header > ul > li {
+  display:inline;
+  border: 2px solid black;
+	background-color: #14aafd;
 }
