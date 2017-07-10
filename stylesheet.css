@@ -2,17 +2,9 @@
   background:black;
   color:#14aafd;
   position:fixed;
-  margin:-50px -10px -20px -10px;
-  padding:50px 20px 40px 20px;
-}
-
-#header > span {
-  fonts-size:32px;
-}
-
-#header > ul {
-  list-style-type:none;
-  display:inline;
+  margin:-10px;
+  margin:right:-2000px;
+  padding-right:-2000px;
 }
 
 #header > ul > li {
