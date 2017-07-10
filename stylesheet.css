@@ -10,8 +10,8 @@
 }
 
 #header > span {
-  fonts-size:28px;
-  
+  fonts-size:32px;
+  float:left;  
 }
 
 #header > ul {
