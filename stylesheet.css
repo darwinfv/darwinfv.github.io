@@ -1,6 +1,4 @@
-body > p {
-  background:#1096651;
-}
+
 
 #header {
   fonts-size:28px;
@@ -8,8 +6,14 @@ body > p {
   color:#14aa5d;
   padding:5px 50px 5px 20px;
   display:inline;
+  positio:fixed;
 }
 
 #header > span {
   
+}
+
+#header > ul {
+  list-style-type:none;
+  display:inline;
 }
