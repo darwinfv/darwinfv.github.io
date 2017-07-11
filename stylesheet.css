@@ -1,13 +1,15 @@
+img {
+  height:50px;
+  width:50px;
+}
+
 #header {
   background:black;
   color:#14aafd;
   position:fixed;
-  margin:-10px;
-  margin:right:-1500px;
-  padding-right:-2000px;
+  
 }
 
-#header > ul > li {
-  display:inline;
-  left:50%
+#header ul {
+  
 }
