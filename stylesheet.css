@@ -11,5 +11,9 @@ img {
 }
 
 #header ul {
-  
+  display:inline;
+}
+
+#header li {
+  display:inline;
 }
