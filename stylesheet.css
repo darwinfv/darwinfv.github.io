@@ -5,17 +5,14 @@ body {
 img {
 	height:50px;
 	width:50px;
+	vertical-align:middle
 }
 
 #header {
 	background-color: black;
-	text-color:#14a5fd
+	color:#14a5fd
 }
 
 #header li {
 	display:inline;
-}
-
-header ul{
-
 }
