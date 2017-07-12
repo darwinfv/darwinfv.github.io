@@ -19,3 +19,16 @@ body {
 	display:inline;
 	margin-right:8%;
 }
+
+#about table {
+	margin:20px;
+}
+
+#about td {
+	padding:20px;
+}
+
+#about img {
+	height:100px;
+	width:100px;
+}
