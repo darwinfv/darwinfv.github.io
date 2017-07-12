@@ -9,10 +9,13 @@ img {
 }
 
 #header {
-	background-color: black;
-	color:#14a5fd
+	background-color:#37393d;
+	color:#14a5fd;
+	margin:-20px -10px 0px -10px;
+	padding:3% 0px 1px 10px;
 }
 
 #header li {
 	display:inline;
+	margin-right:8%;
 }
