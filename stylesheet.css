@@ -1,5 +1,5 @@
 body {
-	background-color:#14aafd;
+	background-color:white;
 }
 
 img {
@@ -8,8 +8,8 @@ img {
 }
 
 #header {
-	top: -10px;
 	background-color: black;
+	text-color:#14a5fd
 }
 
 #header li {
@@ -17,6 +17,5 @@ img {
 }
 
 header ul{
-	position: fixed;
-	margin: -10px;
+
 }
