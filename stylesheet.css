@@ -7,10 +7,6 @@ img {
   width:50px;
 }
 
-#header {
-  bakground:black;
-}
-
 #navbar {
 	position: fixed;
 	/*top:10px;
@@ -19,9 +15,21 @@ img {
 }
 
 #header ul {
-  display:inline;
+}
+
+#header {
+	top: -10px;
+	background-color: #3c4543;
 }
 
 #header li {
   display:inline;
+}
+
+ul{
+	position: fixed;
+	margin: -10px;
+}
+
+li {
 }
