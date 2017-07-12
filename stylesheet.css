@@ -3,33 +3,20 @@ body {
 }
 
 img {
-  height:50px;
-  width:50px;
-}
-
-#navbar {
-	position: fixed;
-	/*top:10px;
-	left:50%;
-	margin-left:-254px;*/
-}
-
-#header ul {
+	height:50px;
+	width:50px;
 }
 
 #header {
 	top: -10px;
-	background-color: #3c4543;
+	background-color: black;
 }
 
 #header li {
-  display:inline;
+	display:inline;
 }
 
-ul{
+header ul{
 	position: fixed;
 	margin: -10px;
-}
-
-li {
 }
