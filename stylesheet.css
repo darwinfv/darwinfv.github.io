@@ -21,7 +21,8 @@ body {
 }
 
 #about table {
-	margin:20px;
+	margin:100px;
+	font-family:Comic Sans MS;
 }
 
 #about td {
