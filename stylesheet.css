@@ -21,12 +21,12 @@ body {
 }
 
 #about table {
-	margin:100px;
+	margin:20px 300px 20px 300px;
 	font-family:Comic Sans MS;
 }
 
 #about td {
-	padding:20px;
+	padding:50px;
 }
 
 #about img {
