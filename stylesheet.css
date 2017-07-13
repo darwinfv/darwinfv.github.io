@@ -21,7 +21,7 @@ body {
 }
 
 #about table {
-	margin:20px 300px 20px 300px;
+	margin:20px 200px 20px 200px;
 	font-family:Comic Sans MS;
 }
 
@@ -30,6 +30,6 @@ body {
 }
 
 #about img {
-	height:300px;
-	width:300px;
+	height:200px;
+	width:200px;
 }
