@@ -12,7 +12,7 @@ body {
 	background-color:#37393d;
 	color:#14a5fd;
 	margin:-20px -10px 0px -10px;
-	padding:10px 0px 2px 10px;
+	padding:15px 0px 2px 10px;
 }
 
 #header li {
@@ -21,7 +21,7 @@ body {
 }
 
 #about table {
-	margin:20px 200px 20px 200px;
+	margin:10% 30% 10% 30%;
 	font-family:Comic Sans MS;
 }
 
