@@ -1,6 +1,6 @@
     body {
         position: relative;
-        margin: auto;
+        /*margin: auto;*/
     }
 
     #section1 {
@@ -29,7 +29,7 @@
 
     .info-card {
       float: left;
-      /*margin: 20px;*/
+      margin: 20px;
       -webkit-perspective: 600px;
     }
 
