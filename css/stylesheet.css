@@ -147,25 +147,10 @@ p {
   height: 24px!important;
 }
 
-#steam {
-  height: 80%;
-  width: 80%;
-}
-
-#shell {
+#ball {
   height: 50%;
-  width: 50%;
-  filter: invert(100%);
-}
-
-#art {
-  height: 101%;
-  width: 101%;
-}
-
-#ship {
-  height: 65%;
-  width: 50%;
+  width: 66.8%;
+  transform: translateX(-32.5%) translateY(-45%);
 }
 
 .btn-group-justified {
