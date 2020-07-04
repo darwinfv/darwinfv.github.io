@@ -1,0 +1,182 @@
+html {
+  font-family: sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.h4, h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.h2, h2 {
+  margin-top: 20px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+
+
+
+
+#section1 {
+  /* padding-top: 80px; */
+  /* padding-bottom: 40px; */
+  /* color: #fff; */
+  background-color: #1E88E5;
+}
+#section2 {
+  padding-top: 50px;
+  color: #fff;
+  background-color: #673ab7;
+}
+#section41 {
+  padding-top: 50px;
+  color: #fff;
+  background-color: #00bcd4;
+}
+#section42 {
+  padding-top: 50px;
+  color: #fff;
+  background-color: #009688;
+}
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: texgyro;
+  src: "../texgyreheros-regular.otf";
+}
+
+.info-card {
+  width: 330px;
+  height: 330px;
+  perspective: 600px;
+  margin: 20px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.info-card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+  border-radius: 30px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.front {
+  text-align: center;
+  z-index: 1;
+}
+
+.back {
+  color: #000;
+  background: #FFF;
+  transform: rotateY(180deg);
+  overflow: hidden;
+  padding: 0 20px 0 20px;
+}
+
+.half {
+  width: 50%;
+  height: 50%;
+}
+
+.card-inner .front img {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#credit {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.social {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social a {
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  text-decoration: none;
+}
+
+.social img {
+  width: 32px; 
+  height: 32px;
+}
+
+.youtube {
+  height: 24px!important;
+}
+
+#steam {
+  height: 80%;
+  width: 80%;
+}
+
+#pair {
+  height: 50%;
+  width: 50%;
+}
+
+#shell {
+  height: 50%;
+  width: 50%;
+  filter: invert(100%);
+}
+
+#art {
+  height: 101%;
+  width: 101%;
+}
+
+#ship {
+  height: 65%;
+  width: 50%;
+}
+
+.btn-group-justified {
+    padding: 50px;
+}
+
+#footer {
+  background: #000;
+}
