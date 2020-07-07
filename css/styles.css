@@ -4167,9 +4167,6 @@ input[type=submit].btn-block {
 
 .navbar-brand {
 	display: inline-block;
-	padding-top: .3125rem;
-	padding-bottom: .3125rem;
-	margin-right: 1rem;
 	font-size: 1.25rem;
 	line-height: inherit;
 	white-space: nowrap
@@ -6506,7 +6503,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-	background-color: #1abc9c!important
+	background-color: #0573fa54!important
 }
 
 a.bg-primary:focus,
@@ -6520,65 +6517,23 @@ button.bg-primary:hover {
 	background-color: #2c3e50!important
 }
 
-a.bg-secondary:focus,
-a.bg-secondary:hover,
-button.bg-secondary:focus,
-button.bg-secondary:hover {
-	background-color: #1a252f!important
-}
-
 .bg-success {
-	background-color: #28a745!important
-}
-
-a.bg-success:focus,
-a.bg-success:hover,
-button.bg-success:focus,
-button.bg-success:hover {
-	background-color: #1e7e34!important
+	background-color: #28a745!important;
+	background-color: #1e7e34!important;
 }
 
 .bg-info {
-	background-color: #17a2b8!important
+	background-color: #2bddf8!important
 }
 
 a.bg-info:focus,
 a.bg-info:hover,
 button.bg-info:focus,
 button.bg-info:hover {
-	background-color: #117a8b!important
-}
-
-.bg-warning {
-	background-color: #ffc107!important
-}
-
-a.bg-warning:focus,
-a.bg-warning:hover,
-button.bg-warning:focus,
-button.bg-warning:hover {
-	background-color: #d39e00!important
-}
-
-.bg-danger {
-	background-color: #dc3545!important
-}
-
-a.bg-danger:focus,
-a.bg-danger:hover,
-button.bg-danger:focus,
-button.bg-danger:hover {
-	background-color: #bd2130!important
+	background-color: #1dcfeb!important
 }
 
 .bg-light {
-	background-color: #f8f9fa!important
-}
-
-a.bg-light:focus,
-a.bg-light:hover,
-button.bg-light:focus,
-button.bg-light:hover {
 	background-color: #dae0e5!important
 }
 
@@ -6586,142 +6541,8 @@ button.bg-light:hover {
 	background-color: #343a40!important
 }
 
-a.bg-dark:focus,
-a.bg-dark:hover,
-button.bg-dark:focus,
-button.bg-dark:hover {
-	background-color: #1d2124!important
-}
-
-.bg-white {
-	background-color: #fff!important
-}
-
-.bg-transparent {
-	background-color: transparent!important
-}
-
-.border {
-	border: .125rem solid #dee2e6!important
-}
-
-.border-top {
-	border-top: .125rem solid #dee2e6!important
-}
-
-.border-right {
-	border-right: .125rem solid #dee2e6!important
-}
-
-.border-bottom {
-	border-bottom: .125rem solid #dee2e6!important
-}
-
-.border-left {
-	border-left: .125rem solid #dee2e6!important
-}
-
-.border-0 {
-	border: 0!important
-}
-
-.border-top-0 {
-	border-top: 0!important
-}
-
-.border-right-0 {
-	border-right: 0!important
-}
-
-.border-bottom-0 {
-	border-bottom: 0!important
-}
-
-.border-left-0 {
-	border-left: 0!important
-}
-
-.border-primary {
-	border-color: #1abc9c!important
-}
-
-.border-secondary {
-	border-color: #2c3e50!important
-}
-
-.border-success {
-	border-color: #28a745!important
-}
-
-.border-info {
-	border-color: #17a2b8!important
-}
-
-.border-warning {
-	border-color: #ffc107!important
-}
-
-.border-danger {
-	border-color: #dc3545!important
-}
-
-.border-light {
-	border-color: #f8f9fa!important
-}
-
-.border-dark {
-	border-color: #343a40!important
-}
-
-.border-white {
-	border-color: #fff!important
-}
-
-.rounded-sm {
-	border-radius: .25rem!important
-}
-
 .rounded {
 	border-radius: .5rem!important
-}
-
-.rounded-top {
-	border-top-left-radius: .5rem!important
-}
-
-.rounded-right,
-.rounded-top {
-	border-top-right-radius: .5rem!important
-}
-
-.rounded-bottom,
-.rounded-right {
-	border-bottom-right-radius: .5rem!important
-}
-
-.rounded-bottom,
-.rounded-left {
-	border-bottom-left-radius: .5rem!important
-}
-
-.rounded-left {
-	border-top-left-radius: .5rem!important
-}
-
-.rounded-lg {
-	border-radius: .75rem!important
-}
-
-.rounded-circle {
-	border-radius: 50%!important
-}
-
-.rounded-pill {
-	border-radius: 50rem!important
-}
-
-.rounded-0 {
-	border-radius: 0!important
 }
 
 .clearfix:after {
@@ -9957,16 +9778,11 @@ a.text-dark:hover {
 #mainNav {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	font-family: SB Heading, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-	font-weight: 700
+	font-weight: bold;
 }
 
 #mainNav .navbar-brand {
 	color: #fff
-}
-
-#mainNav .navbar-nav {
-	margin-top: 1rem
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
@@ -9974,7 +9790,7 @@ a.text-dark:hover {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-	color: #1abc9c
+	color: #00bfff;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -9983,7 +9799,7 @@ a.text-dark:hover {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-	color: #1abc9c
+	color: #00bfff;
 }
 
 #mainNav .navbar-toggler {
@@ -9993,12 +9809,12 @@ a.text-dark:hover {
 
 @media (min-width:992px) {
 	#mainNav {
-		padding-top: 1.5rem;
-		padding-bottom: 1.5rem;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
 		transition: padding-top .3s, padding-bottom .3s
 	}
 	#mainNav .navbar-brand {
-		font-size: 1.75em;
+		font-size: 1.5em;
 		transition: font-size .3s
 	}
 	#mainNav .navbar-nav {
@@ -10008,8 +9824,7 @@ a.text-dark:hover {
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
-		color: #fff;
-		background: #1abc9c
+		color: #00bfff;
 	}
 	#mainNav.navbar-shrink {
 		padding-top: .5rem;
@@ -10144,29 +9959,21 @@ a.text-dark:hover {
 	color: #1abc9c
 }
 
-form .row:first-child .floating-label-form-group {
-	border-top: 1px solid #e9ecef
-}
-
 .footer {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
-	background-color: #2c3e50;
-	color: #fff
+	background-color: #0573fa54;
+	text-align: center;
 }
 
 .copyright {
-	background-color: #1a252f
-}
-
-#brandImage {
-	height: 2rem
+	background-color: #222222;
 }
 
 .portfolio {
 	padding-top: 6rem;
-	padding-bottom: 4.5rem;
-	background: #007bff
+	padding-bottom: 2.5rem;
+	background: #29d1ff;
 }
 
 .page-section-heading {
