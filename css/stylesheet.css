@@ -78,6 +78,12 @@ p {
   transform-style: preserve-3d;
 }
 
+@-moz-document url-prefix(){
+  .card-inner {
+    -webkit-backface-visibility: hidden;
+  }
+}
+
 .info-card:hover .card-inner {
   transform: rotateY(180deg);
 }
